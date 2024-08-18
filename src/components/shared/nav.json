@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_navs",
+  "info": {
+    "displayName": "nav",
+    "icon": "database"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

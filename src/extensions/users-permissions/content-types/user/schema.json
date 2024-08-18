@@ -65,13 +65,11 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "first_name": {
-      "type": "string",
-      "required": true
-    },
-    "last_name": {
-      "type": "string",
-      "required": true
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::author.author",
+      "mappedBy": "user"
     }
   }
 }
